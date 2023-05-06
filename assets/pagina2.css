@@ -1,0 +1,110 @@
+/* CSS INDEX */
+.cont-p1 {
+  width: 80vw;
+  height: 50vh;
+  background-color: navajowhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  gap: 40px;
+}
+.btn-p1 {
+  width: 100%;
+  height: 150%;
+}
+.tit-api {
+  font-size: 350%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* -------------- */
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-grande {
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.cont-elem {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cont-arriba {
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  display: flex;
+  font-size: 300%;
+  font-style: italic;
+}
+.cont-txt {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-self: end;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cont-sel {
+  width: 40%;
+  height: 100%;
+  font-size: 120%;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.div-s {
+  width: 100%;
+  height: 17%;
+}
+.cont-frases {
+  width: 60%;
+  height: 100%;
+}
+
+.select {
+  width: 35%;
+  margin-left: 10px;
+  height: 80%;
+  border: 1px gray solid;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 70%;
+}
+button {
+  margin-right: 75px;
+  width: 40%;
+  height: 14%;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-family: arial;
+}
+button:hover {
+  border: 2px black solid;
+  background-color: white;
+  color: black;
+}

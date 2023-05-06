@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/pagina3.css" />
+    <title>Digimons</title>
+  </head>
+  <body>
+    <div class="cont-print" id="printer">
+      <!-- <div class="printed">
+            <img class="img" src="" alt="Digimon image">
+            <span>Name: Nombre</span>
+            <span>Level: Level</span>
+        </div>  -->
+
+      <div class="cont-todo" id="printer-n">
+        <div class="div-tit">
+          <span class="tit">Digimon Collection</span>
+        </div>
+        <div class="div-info">
+          <div class="div-select">
+            <span>Search by Digimon level</span>
+            <select name="" id="select">
+              <option value="fresh">Fresh</option>
+              <option value="intraining">In-Training</option>
+              <option value="rookie">Rookie</option>
+              <option value="champion">Champion</option>
+              <option value="ultimate">Ultimate</option>
+              <option value="armor">Armor</option>
+              <option value="mega">Mega</option>
+            </select>
+            <button type="submit" onclick="guardar_l()">Search</button>
+          </div>
+
+          <div class="or">
+            <span>OR</span>
+          </div>
+          <div class="div-select">
+            <span>Search by name</span>
+            <input type="text" placeholder="Write your digimon" id="input" />
+            <button type="submit" id="btn-n" onclick="guardar_n()">
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="index.html">
+      <button
+        style="position: fixed; width: 60px; height: 20px; left: 2%; top: 2%"
+      >
+        Volver
+      </button></a
+    >
+    <script src="scripts/pagina3.js"></script>
+  </body>
+</html>
